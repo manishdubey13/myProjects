@@ -20,10 +20,10 @@ public class MaximumfromEachSubarray
 
             //System.arraycopy(array,i,tmp,0,4);
 
-            Map<Integer,Integer> map = new HashMap<>();
+   /*         Map<Integer,Integer> map = new HashMap<>();
 
             Set<Map.Entry<Integer,Integer>> entries =  map.entrySet();
-
+*/
 
             Arrays.sort(tmp);
             System.out.println(tmp[k-1]);

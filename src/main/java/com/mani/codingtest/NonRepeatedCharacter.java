@@ -9,7 +9,8 @@ public class NonRepeatedCharacter
 {
     public static void main(String[] args)
     {
-        String string = "ABCDEFGHIJKKLLADTVDERFSWVGHQWCNOPENSMSJWIERTFB";
+        //String string = "ABCDEFGHIJKKLLADTVDERFSWVGHQWCNOPENSMSJWIERTFBQO";
+        String string = "AABBCCDDEE";
 
         System.out.println(nonRepeatedChar(string));
     }
